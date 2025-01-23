@@ -27,9 +27,12 @@ mvn compile assembly:single
 ## Execução do arquivo
 ```
 java -jar target/Serializacao.jar
+java -jar target/Desserializacao.jar
 ```
 
 ## Conferir bytes dos arquivos
 ```
 ls -l
 ```
+
+* Ler sobre "exchange" e "bindings" na doc do RabbitMQ
