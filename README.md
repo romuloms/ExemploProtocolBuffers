@@ -18,3 +18,18 @@ protoc --java_out=src/main/java/ src/main/proto/aluno.proto
 mvn clean compile assembly:single
 
 ```
+
+## Compilar o pom
+```
+mvn compile assembly:single
+```
+
+## Execução do arquivo
+```
+java -jar target/Serializacao.jar
+```
+
+## Conferir bytes dos arquivos
+```
+ls -l
+```
